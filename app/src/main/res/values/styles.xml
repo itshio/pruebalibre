@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+
+<style name="base">
+    <item name="android:textColor">@color/colordetexto</item>
+    <item name="android:shadowColor">@color/shadoecolor</item>
+    <item name="android:layout_marginTop">@dimen/d10</item>
+    <item name="android:layout_marginBottom">@dimen/d10</item>
+    <item name="android:layout_marginRight">@dimen/d10</item>
+    <item name="android:layout_marginLeft">@dimen/d10</item>
+    <item name="android:textSize">@dimen/tamañotexto</item>
+
+</style>
+
+    <style name="aceptar"parent="@style/base">
+        <item name="android:text">@string/aceptar</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:background">@drawable/botonaceptar</item>
+    </style>
+
+
+
+    <style name="cancelar"parent="@style/base">
+        <item name="android:text">@string/cancelar</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/botoncancelar</item>
+    </style>
+
+
+    <style name="siguiente"parent="@style/base">
+        <item name="android:text">@string/siguiente</item>
+        <item name="android:shadowDx">17</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/botonsiguiente</item>
+    </style>
+
+
+    android:textColor="#FFFFFF"
+    android:textSize="30sp"
+
+
+    android:background="@drawable/buttonshape"
+    android:shadowColor="#000000"
+    android:shadowDx="20"
+    android:shadowDy="0"
+    android:shadowRadius="5"
+
+    <style name="anterior"parent="@style/anterior">
+        <item name="android:text">@string/anterior</item>
+        <item name="android:shadowDx">20</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:background">@drawable/botonanterior</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">pruebalibre</string>
+    <string name="aceptar">aceptar</string>
+    <string name="cancelar">cancelar</string>
+    <string name="siguiente">siguiente</string>
+    <string name="anterior">anterior</string>
+
+</resources>

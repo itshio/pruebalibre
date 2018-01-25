@@ -22,7 +22,7 @@
 
 </style>
 
-    <style name="aceptar"parent="@style/base">
+    <style name="aceptar" parent="@style/base">
         <item name="android:text">@string/aceptar</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
@@ -32,7 +32,7 @@
 
 
 
-    <style name="cancelar"parent="@style/base">
+    <style name="cancelar" parent="@style/base">
         <item name="android:text">@string/cancelar</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
@@ -41,7 +41,7 @@
     </style>
 
 
-    <style name="siguiente"parent="@style/base">
+    <style name="siguiente" parent="@style/base">
         <item name="android:text">@string/siguiente</item>
         <item name="android:shadowDx">17</item>
         <item name="android:shadowDy">0</item>
@@ -60,7 +60,7 @@
     android:shadowDy="0"
     android:shadowRadius="5"
 
-    <style name="anterior"parent="@style/base">
+    <style name="anterior" parent="@style/base">
         <item name="android:text">@string/anterior</item>
         <item name="android:shadowDx">20</item>
         <item name="android:shadowDy">0</item>

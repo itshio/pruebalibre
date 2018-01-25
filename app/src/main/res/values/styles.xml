@@ -60,7 +60,7 @@
     android:shadowDy="0"
     android:shadowRadius="5"
 
-    <style name="anterior"parent="@style/anterior">
+    <style name="anterior"parent="@style/base">
         <item name="android:text">@string/anterior</item>
         <item name="android:shadowDx">20</item>
         <item name="android:shadowDy">0</item>
